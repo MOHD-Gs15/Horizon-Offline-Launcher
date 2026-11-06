@@ -666,7 +666,6 @@
   "{name} moved to the trash.": "{name} moved to the trash.",
   "Couldn't load patch notes. {error}": "パッチノートを読み込めませんでした。{error}",
   "Couldn't load releases. {error}": "リリースを読み込めませんでした。{error}",
-  "Launcher updated to {version}": "ランチャーを {version} に更新しました",
   "Launcher {version}": "ランチャー {version}",
   "Launcher {version}  {percent}%": "ランチャー {version}  {percent}%",
   "Manage versions": "バージョンを管理",
@@ -1167,7 +1166,6 @@
   "Native mods cannot build for the selected x64 game yet. This ARM64 launcher has no matching compiler.": "選択した x64 ゲーム用のネイティブ MOD はビルドできません。この ARM64 ランチャーには対応するコンパイラーがありません。",
   "Say auto, x64 or arm64 for the game architecture.": "ゲームのアーキテクチャには auto、x64、arm64 のいずれかを指定してください。",
   "This version has a {installed} game build, but Settings selects {selected}. Install the selected build from Versions before launching.": "このバージョンのゲームは {installed} ですが、設定では {selected} が選択されています。起動前に「バージョン」から選択したビルドをインストールしてください。",
-  "Automatic": "自動",
   "{tag} has no build for the selected game architecture.": "{tag} には選択したゲームアーキテクチャ用のビルドがありません。",
   "Unknown": "不明",
   "Claim for free": "無料で受け取る",
@@ -1228,5 +1226,10 @@
   "{name} was left out: it needs {other}, which was left out": "{name} は除外されました: 除外された {other} が必要です",
   "Doesn't build on the Horizon you play ({code}): a build leaves it out until its author updates it": "プレイ中の Horizon ではビルドできません ({code}): 作者が更新するまでビルドから除外されます",
   "Where you are, the founder set is claimed through a free checkout on playhorizon.dev. Claim it from the Shop: it opens the checkout for you.": "お住まいの地域では、ファウンダーセットは playhorizon.dev の無料チェックアウトで受け取ります。ショップから受け取ってください。チェックアウトが開きます。",
-  "The founder set can't be claimed from your country.": "お住まいの国ではファウンダーセットを受け取れません。"
+  "The founder set can't be claimed from your country.": "お住まいの国ではファウンダーセットを受け取れません。",
+  "follows updates": "follows updates",
+  "Not prepared. Sign in with the Microsoft account that owns Minecraft {version} first.": "Not prepared. Sign in with the Microsoft account that owns Minecraft {version} first.",
+  "This build of the launcher has no Microsoft sign-in (HORIZON_MSA_CLIENT_ID), so it can't start the game.": "This build of the launcher has no Microsoft sign-in (HORIZON_MSA_CLIENT_ID), so it can't start the game.",
+  "A 64×64 (or 64×32) skin PNG and a 64×32 cape PNG, kept by the launcher and given to the game when this name plays. The game draws the default skins for now; it uses these once it can. A Microsoft account's skin and cape: coming soon.": "A 64×64 (or 64×32) skin PNG and a 64×32 cape PNG, kept by the launcher and given to the game when this name plays. The game draws the default skins for now; it uses these once it can. A Microsoft account's skin and cape: coming soon.",
+  "Horizon needs a Microsoft account that owns Minecraft: Java Edition, like other launchers. It also plays online servers with your name and skin.": "Horizon needs a Microsoft account that owns Minecraft: Java Edition, like other launchers. It also plays online servers with your name and skin."
 }

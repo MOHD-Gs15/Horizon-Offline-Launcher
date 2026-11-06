@@ -666,7 +666,6 @@
   "Copied": "Kopiert",
   "Couldn't load patch notes. {error}": "Couldn't load patch notes. {error}",
   "Couldn't load releases. {error}": "Couldn't load releases. {error}",
-  "Launcher updated to {version}": "Launcher updated to {version}",
   "Launcher {version}": "Launcher {version}",
   "Launcher {version}  {percent}%": "Launcher {version}  {percent}%",
   "Manage versions": "Versionen verwalten",
@@ -1167,7 +1166,6 @@
   "Native mods cannot build for the selected x64 game yet. This ARM64 launcher has no matching compiler.": "Native Mods können nicht für das ausgewählte x64-Spiel erstellt werden. Für diesen ARM64-Launcher gibt es keinen passenden Compiler.",
   "Say auto, x64 or arm64 for the game architecture.": "Geben Sie auto, x64 oder arm64 für die Spielarchitektur ein.",
   "This version has a {installed} game build, but Settings selects {selected}. Install the selected build from Versions before launching.": "Diese Version enthält einen {installed}-Spielbuild, in den Einstellungen ist jedoch {selected} ausgewählt. Installieren Sie den ausgewählten Build unter Versionen, bevor Sie das Spiel starten.",
-  "Automatic": "Automatisch",
   "{tag} has no build for the selected game architecture.": "Für {tag} gibt es keinen Build für die ausgewählte Spielarchitektur.",
   "Unknown": "Unbekannt",
   "Claim for free": "Kostenlos holen",
@@ -1228,5 +1226,10 @@
   "{name} was left out: it needs {other}, which was left out": "{name} wurde weggelassen: braucht {other}, das weggelassen wurde",
   "Doesn't build on the Horizon you play ({code}): a build leaves it out until its author updates it": "Lässt sich auf dem Horizon, das du spielst, nicht bauen ({code}): ein Build lässt es weg, bis sein Autor es aktualisiert",
   "Where you are, the founder set is claimed through a free checkout on playhorizon.dev. Claim it from the Shop: it opens the checkout for you.": "Dort, wo du bist, wird das Gründer-Set über einen kostenlosen Checkout auf playhorizon.dev beansprucht. Beanspruche es im Shop: Er öffnet den Checkout für dich.",
-  "The founder set can't be claimed from your country.": "Das Gründer-Set kann in deinem Land nicht beansprucht werden."
+  "The founder set can't be claimed from your country.": "Das Gründer-Set kann in deinem Land nicht beansprucht werden.",
+  "follows updates": "follows updates",
+  "Not prepared. Sign in with the Microsoft account that owns Minecraft {version} first.": "Not prepared. Sign in with the Microsoft account that owns Minecraft {version} first.",
+  "This build of the launcher has no Microsoft sign-in (HORIZON_MSA_CLIENT_ID), so it can't start the game.": "This build of the launcher has no Microsoft sign-in (HORIZON_MSA_CLIENT_ID), so it can't start the game.",
+  "A 64×64 (or 64×32) skin PNG and a 64×32 cape PNG, kept by the launcher and given to the game when this name plays. The game draws the default skins for now; it uses these once it can. A Microsoft account's skin and cape: coming soon.": "A 64×64 (or 64×32) skin PNG and a 64×32 cape PNG, kept by the launcher and given to the game when this name plays. The game draws the default skins for now; it uses these once it can. A Microsoft account's skin and cape: coming soon.",
+  "Horizon needs a Microsoft account that owns Minecraft: Java Edition, like other launchers. It also plays online servers with your name and skin.": "Horizon needs a Microsoft account that owns Minecraft: Java Edition, like other launchers. It also plays online servers with your name and skin."
 }

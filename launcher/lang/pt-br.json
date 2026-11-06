@@ -666,7 +666,6 @@
   "{name} moved to the trash.": "{name} foi movido para a lixeira.",
   "Couldn't load patch notes. {error}": "Não foi possível carregar as notas de atualização. {error}",
   "Couldn't load releases. {error}": "Não foi possível carregar as versões. {error}",
-  "Launcher updated to {version}": "Launcher atualizado para {version}",
   "Launcher {version}": "Launcher {version}",
   "Launcher {version}  {percent}%": "Launcher {version}  {percent}%",
   "Manage versions": "Gerenciar versões",
@@ -1167,7 +1166,6 @@
   "Native mods cannot build for the selected x64 game yet. This ARM64 launcher has no matching compiler.": "Mods nativos não podem ser compilados para o jogo x64 selecionado. Este launcher ARM64 não tem um compilador compatível.",
   "Say auto, x64 or arm64 for the game architecture.": "Informe auto, x64 ou arm64 para a arquitetura do jogo.",
   "This version has a {installed} game build, but Settings selects {selected}. Install the selected build from Versions before launching.": "Esta versão contém o jogo {installed}, mas as Configurações selecionam {selected}. Instale a compilação selecionada em Versões antes de iniciar.",
-  "Automatic": "Automático",
   "{tag} has no build for the selected game architecture.": "{tag} não tem uma compilação para a arquitetura de jogo selecionada.",
   "Unknown": "Desconhecido",
   "Claim for free": "Resgatar grátis",
@@ -1228,5 +1226,10 @@
   "{name} was left out: it needs {other}, which was left out": "{name} ficou de fora: precisa de {other}, que ficou de fora",
   "Doesn't build on the Horizon you play ({code}): a build leaves it out until its author updates it": "Não compila no Horizon que você joga ({code}): a compilação o deixa de fora até que o autor o atualize",
   "Where you are, the founder set is claimed through a free checkout on playhorizon.dev. Claim it from the Shop: it opens the checkout for you.": "Onde você está, o conjunto fundador é resgatado por um checkout gratuito em playhorizon.dev. Resgate na Loja: ela abre o checkout para você.",
-  "The founder set can't be claimed from your country.": "O conjunto fundador não pode ser resgatado no seu país."
+  "The founder set can't be claimed from your country.": "O conjunto fundador não pode ser resgatado no seu país.",
+  "follows updates": "follows updates",
+  "Not prepared. Sign in with the Microsoft account that owns Minecraft {version} first.": "Not prepared. Sign in with the Microsoft account that owns Minecraft {version} first.",
+  "This build of the launcher has no Microsoft sign-in (HORIZON_MSA_CLIENT_ID), so it can't start the game.": "This build of the launcher has no Microsoft sign-in (HORIZON_MSA_CLIENT_ID), so it can't start the game.",
+  "A 64×64 (or 64×32) skin PNG and a 64×32 cape PNG, kept by the launcher and given to the game when this name plays. The game draws the default skins for now; it uses these once it can. A Microsoft account's skin and cape: coming soon.": "A 64×64 (or 64×32) skin PNG and a 64×32 cape PNG, kept by the launcher and given to the game when this name plays. The game draws the default skins for now; it uses these once it can. A Microsoft account's skin and cape: coming soon.",
+  "Horizon needs a Microsoft account that owns Minecraft: Java Edition, like other launchers. It also plays online servers with your name and skin.": "Horizon needs a Microsoft account that owns Minecraft: Java Edition, like other launchers. It also plays online servers with your name and skin."
 }

@@ -40,6 +40,14 @@ fn mirror_serves_only_horizons_repository() {
         mirror_url_with("https://api.github.com/repos/someone/mod/commits/abc", base),
         None
     );
+    // This repository's release reads stay with GitHub: the mirror doesn't carry them.
+    assert_eq!(
+        mirror_url_with(
+            "https://api.github.com/repos/MOHD-Gs15/Horizon-Offline-Launcher/releases?per_page=100",
+            base
+        ),
+        None
+    );
     assert_eq!(
         mirror_url_with("https://github.com/horizon-rust/horizon/releases", base),
         None

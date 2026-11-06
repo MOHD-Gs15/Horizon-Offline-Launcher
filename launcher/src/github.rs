@@ -120,7 +120,10 @@ pub(crate) fn mirror_url(url: &str) -> Option<String> {
 
 fn mirror_url_with(url: &str, base: &str) -> Option<String> {
     let path = url.strip_prefix(API)?;
-    let repo = format!("/repos/{}/", backend::REPO);
+    // Kira's mirror carries Horizon's own repository only: this launcher's reads of it (native
+    // mods' commits, hook points) go through it. Reads of this repository's releases stay with
+    // GitHub directly, mirror or no mirror.
+    let repo = format!("/repos/{}/", backend::UPSTREAM_REPO);
     (!base.is_empty() && path.starts_with(&repo))
         .then(|| format!("{}{path}", base.trim_end_matches('/')))
 }

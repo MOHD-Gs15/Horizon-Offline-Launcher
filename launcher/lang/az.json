@@ -1223,5 +1223,13 @@
   "{name} was left out: it needs {other}, which was left out": "{name} kənarda qaldı: ona {other} lazımdır, o da kənarda qaldı",
   "Doesn't build on the Horizon you play ({code}): a build leaves it out until its author updates it": "Oynadığın Horizon-da qurulmur ({code}): müəllifi yeniləyənə qədər quraşdırma onu kənarda saxlayır",
   "Where you are, the founder set is claimed through a free checkout on playhorizon.dev. Claim it from the Shop: it opens the checkout for you.": "Olduğunuz yerdə qurucu dəsti playhorizon.dev saytında pulsuz ödəniş vasitəsilə alınır. Onu Mağazadan alın: ödəniş səhifəsini sizin üçün açacaq.",
-  "The founder set can't be claimed from your country.": "Qurucu dəsti sizin ölkənizdən alına bilməz."
+  "The founder set can't be claimed from your country.": "Qurucu dəsti sizin ölkənizdən alına bilməz.",
+  "follows updates": "follows updates",
+  "This build of the launcher has no Microsoft sign-in (HORIZON_MSA_CLIENT_ID).": "This build of the launcher has no Microsoft sign-in (HORIZON_MSA_CLIENT_ID).",
+  "Choose jar…": "Choose jar…",
+  "A 64×64 (or 64×32) skin PNG and a 64×32 cape PNG, kept by the launcher and given to the game when this name plays. You see them on yourself in single player and on servers that send no skin of their own; other players see them only where the server shows skins for names (SkinsRestorer: /skin).": "A 64×64 (or 64×32) skin PNG and a 64×32 cape PNG, kept by the launcher and given to the game when this name plays. You see them on yourself in single player and on servers that send no skin of their own; other players see them only where the server shows skins for names (SkinsRestorer: /skin).",
+  "Minecraft jar": "Minecraft jar",
+  "Found by itself in your launcher's folder. Or pick the {version}.jar file.": "Found by itself in your launcher's folder. Or pick the {version}.jar file.",
+  "A Microsoft account plays online servers with your name and skin, and lets Horizon download Minecraft from Mojang.": "A Microsoft account plays online servers with your name and skin, and lets Horizon download Minecraft from Mojang.",
+  "Offline launcher {version}": "Offline launcher {version}"
 }
