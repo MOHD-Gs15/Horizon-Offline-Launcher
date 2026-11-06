@@ -1,0 +1,43 @@
+# Regenerates docs/launcher-commands.md from launcher/src/cli.rs on a runner (the test that
+# checks it needs GPUI's Linux libraries to link). Run it after a merge that touches the CLI:
+# Actions > cli reference > Run workflow. It commits the file when the reference changed.
+name: cli reference
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cli-reference
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: launcher
+      - name: Libraries GPUI links to
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxkbcommon-x11-dev libwayland-dev libx11-xcb-dev libfontconfig-dev libvulkan-dev libasound2-dev
+      - name: Write the reference from the CLI
+        env:
+          HORIZON_LAUNCHER_NO_SELF_UPDATE: "1"
+        run: HORIZON_WRITE_DOCS=1 cargo test --locked --manifest-path launcher/Cargo.toml the_launcher_reference
+      - name: Commit the regenerated reference
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain docs/launcher-commands.md)" ]]; then
+            git add docs/launcher-commands.md
+            git commit -m "Regenerate docs/launcher-commands.md from the CLI"
+            git push
+          else
+            echo "The reference is already up to date"
+          fi
