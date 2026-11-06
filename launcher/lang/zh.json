@@ -354,7 +354,6 @@
   "Local file · {file}": "本地文件 · {file}",
   "Horizon's landscape. Pick a PNG, JPEG or WebP picture of your own.": "Horizon 的风景图。可以选择你自己的 PNG、JPEG 或 WebP 图片。",
   "Not needed": "不需要",
-  "This build of the launcher has no Microsoft sign-in (HORIZON_MSA_CLIENT_ID), so it can't start the game.": "此版本启动器未配置 Microsoft 登录（HORIZON_MSA_CLIENT_ID），因此无法启动游戏。",
   "Offline name · plays": "离线名称 · 当前使用",
   "Run the game through": "通过以下程序运行游戏",
   "needed by another pack": "其他包所需依赖",
@@ -673,7 +672,6 @@
   "No notes for this release.": "此版本无更新说明。",
   "No version": "无版本",
   "Signed in as {name}.": "已以 {name} 身份登录。",
-  "follows updates": "follows updates",
   "Search, then Enter": "搜索，然后按 Enter",
   "Launcher {version}": "启动器 {version}",
   "auto-update": "自动更新",
@@ -1228,8 +1226,5 @@
   "{name} was left out: it needs {other}, which was left out": "已略过 {name}：它需要 {other}，而后者已被略过",
   "Doesn't build on the Horizon you play ({code}): a build leaves it out until its author updates it": "无法在你玩的 Horizon 上构建（{code}）：在作者更新之前，构建会略过它",
   "Where you are, the founder set is claimed through a free checkout on playhorizon.dev. Claim it from the Shop: it opens the checkout for you.": "在你所在的地区，创始者套装需通过 playhorizon.dev 上的免费结账领取。请在商店中领取：商店会为你打开结账页面。",
-  "The founder set can't be claimed from your country.": "你所在的国家无法领取创始者套装。",
-  "Not prepared. Sign in with the Microsoft account that owns Minecraft {version} first.": "Not prepared. Sign in with the Microsoft account that owns Minecraft {version} first.",
-  "A 64×64 (or 64×32) skin PNG and a 64×32 cape PNG, kept by the launcher and given to the game when this name plays. The game draws the default skins for now; it uses these once it can. A Microsoft account's skin and cape: coming soon.": "A 64×64 (or 64×32) skin PNG and a 64×32 cape PNG, kept by the launcher and given to the game when this name plays. The game draws the default skins for now; it uses these once it can. A Microsoft account's skin and cape: coming soon.",
-  "Horizon needs a Microsoft account that owns Minecraft: Java Edition, like other launchers. It also plays online servers with your name and skin.": "Horizon needs a Microsoft account that owns Minecraft: Java Edition, like other launchers. It also plays online servers with your name and skin."
+  "The founder set can't be claimed from your country.": "你所在的国家无法领取创始者套装。"
 }
