@@ -258,7 +258,7 @@ impl Launcher {
                              on yourself in single player and on servers that send no skin of \
                              their own; other players see them only where the server shows \
                              skins for names (SkinsRestorer: /skin).",
-                        ))),
+                        )),
                 ),
         )
     }

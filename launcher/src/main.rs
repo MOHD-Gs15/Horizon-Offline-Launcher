@@ -2057,7 +2057,7 @@ impl Launcher {
                 if let Some(path) = paths.pop() {
                     let _ = this.update(cx, |this, cx| {
                         this.settings.minecraft_jar = Some(path);
-                        this.settings.save();
+                        let _ = this.settings.save();
                         cx.notify();
                     });
                 }
@@ -3525,7 +3525,7 @@ impl Launcher {
                 jar_buttons.child(button("auto-jar", "Automatic", Kind::Ghost, &t).on_click(
                     cx.listener(|this, _: &ClickEvent, _, cx| {
                         this.settings.minecraft_jar = None;
-                        this.settings.save();
+                        let _ = this.settings.save();
                         cx.notify();
                     }),
                 ));
